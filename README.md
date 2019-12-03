@@ -1,11 +1,11 @@
 # bgd电影用户统计项目
-##一、数据来源及其格式
+一、数据来源及其格式
 离线数据的格式：
 userId	movieId	rating	timestamp
 1	2	3.5	1112486027
 1	29	3.5	1112484676
 
-##二、数据读取
+二、数据读取
 Flunme:读取数据将数据下沉到kafka中
 Flume的配置文件
 a1.sources = source1
@@ -35,7 +35,7 @@ $FLUME_HOME/bin/flume-ng agent \
 -Dflume.root.logger=DEBUG,console
 
 
-##三、数据中间件(kafka)
+三、数据中间件(kafka)
 用来缓存数据
 启动kafka消费者
 ./kafka-console-consumer.sh \
@@ -44,8 +44,8 @@ $FLUME_HOME/bin/flume-ng agent \
 --topic bigdata
 
 
-##四、数据处理（SparkStreaming）
+四、数据处理（SparkStreaming）
 代码已上传
-##五、数据储存
+五、数据储存
 
-##六、数据展示
+六、数据展示
