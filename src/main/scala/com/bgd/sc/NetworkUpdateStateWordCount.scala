@@ -5,6 +5,11 @@ import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.{HashPartitioner, SparkConf}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
+/**
+  * @Author Lucas
+  * @Date 2019/12/3 14:48
+  * @Version 1.0
+  */
 object NetworkUpdateStateWordCount {
   /**
     * String : 单词 hello
