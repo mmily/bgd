@@ -37,7 +37,7 @@ $FLUME_HOME/bin/flume-ng agent \
 
 三、数据中间件(kafka)
 用来缓存数据
-启动kafka消费者
+启动kafka消费者观察数据是否进入kafka
 ./kafka-console-consumer.sh \
 --bootstrap-server hdp-1:9092  \
 --from-beginning \
