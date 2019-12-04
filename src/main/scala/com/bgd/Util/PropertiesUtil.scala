@@ -8,6 +8,7 @@ import java.util.Properties
   * @author dengyu
   * @data 2019/12/3 - 16:39
   */
+
 object PropertiesUtil {
 
   def load(propertieName:String): Properties ={
