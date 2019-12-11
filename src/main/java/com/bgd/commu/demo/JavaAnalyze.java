@@ -8,5 +8,6 @@ package com.bgd.commu.demo;
 public class JavaAnalyze {
     public static void main(String[] args) {
         System.out.println(".....");
+        System.out.println();
     }
 }
